@@ -105,15 +105,13 @@ label.erro
 }
 
 .campos-cadastro div.erro i.erro,
-.campos-cadastro div.erro label.erro,
-.botoes-cadastro div.erro label.erro
+.campos-cadastro div.erro label.erro
 {
 	display: block;
 }
 
 .campos-cadastro div:not(.erro) i.erro,
-.campos-cadastro div:not(.erro) label.erro,
-.botoes-cadastro div:not(.erro) label.erro
+.campos-cadastro div:not(.erro) label.erro
 {
 	display: none;
 }

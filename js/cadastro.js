@@ -12,9 +12,6 @@ function cadastrar()
 	var campoConfirmarSenha = document.getElementById("confirmar-senha");
 	campoConfirmarSenha.parentElement.classList.remove("erro");
 
-	var botaoCadastrar = document.getElementById("cadastrar");
-	botaoCadastrar.parentElement.classList.remove("erro");
-
 	if (campoNome.value.length < 1) // campo nome vazio
 	{
 		campoNome.parentElement.classList.add("erro");
