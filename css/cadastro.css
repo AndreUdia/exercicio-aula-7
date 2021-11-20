@@ -1,0 +1,119 @@
+:root
+{
+	--cor-botao: #088A68;
+	--cor-botao-hover: #04B486;
+	--cor-erro: #FA5858;
+}
+
+#cadastro
+{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+
+	width: 250px;
+	font-family: Arial;
+}
+
+.campos-cadastro div
+{
+	display: flex;
+	margin-top: 20px;
+
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.campos-cadastro div input
+{
+	margin-left: 10px;
+
+	width: 100%;
+	height: 100%;
+	border-style: none;
+	outline: none;
+}
+
+.campos-cadastro div label.erro
+{
+	margin-top: 30px;
+}
+
+.botoes-cadastro div
+{
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+.botoes-cadastro div button
+{
+	border-style: none;
+	border-radius: 3px;
+	background-color: var(--cor-botao);
+}
+
+.botoes-cadastro div button:hover
+{
+	cursor: pointer;
+	background-color: var(--cor-botao-hover);
+}
+
+.botoes-cadastro div label
+{
+	margin-top: 40px;
+}
+
+#cadastrar
+{
+	width: 75%;
+	height: 40px;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+#voltar
+{
+	width: 50%;
+	height: 30px;
+	font-size: medium;
+	font-weight: medium;
+}
+
+div.erro
+{
+	border-color: var(--cor-erro);
+}
+
+i.erro
+{
+	color: var(--cor-erro);
+}
+
+label
+{
+	font-size: small;
+	font-weight: bold;
+	position: absolute;
+}
+
+label.erro
+{
+	color: var(--cor-erro);
+}
+
+.campos-cadastro div.erro i.erro,
+.campos-cadastro div.erro label.erro,
+.botoes-cadastro div.erro label.erro
+{
+	display: block;
+}
+
+.campos-cadastro div:not(.erro) i.erro,
+.campos-cadastro div:not(.erro) label.erro,
+.botoes-cadastro div:not(.erro) label.erro
+{
+	display: none;
+}
