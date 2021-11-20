@@ -1,0 +1,76 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.partes{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(151, 205, 226);
+    overflow: hidden;
+    align-items: center;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+
+.bio{
+    margin-left: 30px;
+    padding: 30px;
+}
+
+.container-usuario{
+    align-items: center;
+
+}
+
+.container-posts{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.container-posts > p{
+    margin-left: 15%;
+}
+
+.container-usuario img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px 0px 0px 20px;
+}
+
+.divisoria{
+    border: 0.5px solid gold;
+    margin: 20px;
+}
+
+.container-amigos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.container-amigos img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+}
+
+.fotos img{
+    width: 140px;
+    height: 170px;
+    border: 0.8 solid white;
+    margin-left: 30px;
+}
