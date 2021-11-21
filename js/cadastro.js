@@ -38,5 +38,6 @@ function cadastrar()
 
 function entrar()
 {
+	window.localStorage.setItem('loginStatus', true) // "autenticação"
 	location.href="../principal/principal.html";
 }
