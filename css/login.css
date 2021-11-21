@@ -20,14 +20,14 @@
     border-right: none;
     border-radius: 6px 0 0 6px;
 }
-.error-input input{
+.input-error input{
     color: var(--error-color);
     border-color: var(--error-color);
 }
-.error-input input::placeholder{
+.input-error input::placeholder{
     color: var(--error-color);
 }
-.error-input div div{
+.input-error div div{
     color: var(--error-color);
     border-color: var(--error-color);
 }
