@@ -1,18 +1,19 @@
 :root
 {
-	--cor-botao: #088A68;
-	--cor-botao-hover: #04B486;
+	--cor-primaria: #0d6efd;
+	--cor-secundaria: #0947a5;
+	--cor-borda-campo: #CCC;
 	--cor-erro: #FA5858;
+}
+
+.navbar
+{
+	background-image: linear-gradient(90deg, var(--cor-primaria), var(--cor-secundaria));
 }
 
 .navbar .navbar-nav .nav-item a
 {
 	color: white;
-}
-
-.navbar
-{
-	background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
 }
 
 #cadastro
@@ -22,8 +23,12 @@
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
 
-	width: 250px;
+	width: 400px;
+	padding: 20px;
 	font-family: Arial;
+
+	border: 1px solid var(--cor-primaria);
+	border-radius: 10px;
 }
 
 .campos-cadastro div
@@ -31,8 +36,8 @@
 	display: flex;
 	margin-top: 20px;
 
-	border: 1px solid #CCC;
-	border-radius: 3px;
+	border: 1px solid var(--cor-borda-campo);
+	border-radius: 6px;
 	padding: 10px;
 }
 
@@ -62,13 +67,15 @@
 {
 	border-style: none;
 	border-radius: 3px;
-	background-color: var(--cor-botao);
+
+	color: white;
+	background-color: var(--cor-primaria);
 }
 
 .botoes-cadastro div button:hover
 {
 	cursor: pointer;
-	background-color: var(--cor-botao-hover);
+	background-color: var(--cor-secundaria);
 }
 
 .botoes-cadastro div label
