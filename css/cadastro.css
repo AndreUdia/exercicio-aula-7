@@ -31,6 +31,12 @@
 	border-radius: 10px;
 }
 
+#cadastro-titulo
+{
+	font-size: x-large;
+	font-weight: bold;
+}
+
 .campos-cadastro div
 {
 	display: flex;
