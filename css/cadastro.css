@@ -5,6 +5,16 @@
 	--cor-erro: #FA5858;
 }
 
+.navbar .navbar-nav .nav-item a
+{
+	color: white;
+}
+
+.navbar
+{
+	background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
 #cadastro
 {
 	position: relative;
