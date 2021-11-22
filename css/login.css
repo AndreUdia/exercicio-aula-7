@@ -1,0 +1,39 @@
+:root{
+    --error-color:#FA5858;
+    --primary-color:#0d6efd;
+    --secondary-color:#0947a5;
+}
+.form{
+    padding: 20px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--primary-color)
+}
+.append-left{
+    background: transparent;
+    border-left: none;
+    border-radius: 0 6px 6px 0;
+}
+.append-right{
+    background: transparent;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+}
+.input-error input{
+    color: var(--error-color);
+    border-color: var(--error-color);
+}
+.input-error input::placeholder{
+    color: var(--error-color);
+}
+.input-error div div{
+    color: var(--error-color);
+    border-color: var(--error-color);
+}
+.navbar .navbar-nav .nav-item a{
+    color: white;
+}
+.navbar{
+    background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
