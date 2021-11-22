@@ -19,8 +19,11 @@
 }
 
 .bio{
-    margin-left: 30px;
-    padding: 30px;
+    margin-left: 40px;
+}
+
+.bio p{
+    margin: 0px;
 }
 
 .container-usuario{
@@ -31,11 +34,12 @@
 .container-posts{
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .container-posts > p{
     margin-left: 15%;
+    padding: 0px;
 }
 
 .container-usuario img{
@@ -66,6 +70,8 @@
 .fotos{
     display: flex;
     flex-direction: row;
+    overflow: auto;
+    margin-top: 40px;
 }
 
 .fotos img{
@@ -73,4 +79,12 @@
     height: 170px;
     border: 0.8 solid white;
     margin-left: 30px;
+}
+
+.amigo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
 }
