@@ -88,3 +88,10 @@
     align-items: center;
     margin-left: 55px;
 }
+
+.num-posts, .num-followers, .num-following{
+    margin-right: 5px;
+    color: rgb(137, 52, 185);
+    font-size: 3vh;
+    font-weight: 500;
+}
